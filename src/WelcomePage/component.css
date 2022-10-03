@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    width: 100%;
+    background-color: rgba(36, 20, 66, 0.4);
+    padding: 1rem;
+}
+
+.welcome_form {
+    margin: 0 auto;
+    padding: 3rem 2rem 0.5rem;
+    width: 60%;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.welcome_form input {
+    margin-left: 1rem;
+    border: 3px solid rgba(62, 35, 88, 0.5);
+    background: rgba(36, 20, 66, 0.4);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px 0 0 10px;
+    padding-left: 5px;
+}
+
+.welcome_form button {
+    background-color: rgba(42, 23, 59, 0.8);
+    border: 3px solid rgba(62, 35, 88, 0.5);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0 1rem;
+}
+
+.welcome_form button:hover {
+    background-color: rgba(67, 33, 99, 0.7);
+}
+
+.error_message {
+    text-align: left;
+    color: rgb(79, 64, 95);
+    font-size: 1.2rem;
+}
+
+.welcome_form_error {
+    padding-left: 46%;
+}
