@@ -29,13 +29,13 @@ const TodoItem: FC<TodoItemProps> = ({
 
   return (
     <>
-      {isOpen && (
+      {isOpen ? (
         <ChangingTaskModal
           onClickCancelButton={() => setIsOpen(false)}
           onClickSaveButton={handleClickSaveButton}
           taskValue={value}
         />
-      )}
+      ) : null}
       <li>
         <CheckMark
           className={isCompleted ? 'completed' : ''}
