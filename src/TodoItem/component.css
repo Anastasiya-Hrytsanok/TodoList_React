@@ -1,0 +1,61 @@
+img {
+    width: 32px;
+    height: 32px;
+}
+
+li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+    color: rgb(79, 64, 95);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+li p {
+    width: 100%;
+    text-align: left;
+}
+
+li>p>span {
+    margin: 0 0.7rem;
+    font-weight: 700;
+    color: rgb(52, 42, 63);
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+svg {
+    margin: 0 0.5rem;
+    width: 40px;
+}
+
+svg:first-child {
+    fill: rgb(25, 124, 78);
+}
+
+svg:nth-last-child(2) {
+    fill: rgb(57, 18, 131);
+}
+
+svg:last-child {
+    fill: rgb(158, 23, 106)
+}
+
+svg:first-child:hover {
+    fill: rgb(28, 161, 57);
+}
+
+svg:nth-last-child(2):hover {
+    fill: rgb(93, 28, 177);
+}
+
+svg:last-child:hover {
+    fill: rgb(187, 25, 125)
+}

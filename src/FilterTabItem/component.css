@@ -1,0 +1,25 @@
+.filter_buttons {
+    background-color: rgba(42, 23, 59, 0.8);
+    border: 3px solid rgba(62, 35, 88, 0.5);
+    color: white;
+    font-size: 1.1rem;
+    width: 33%;
+    padding: 0 1rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.filter_buttons:hover {
+    background-color: rgba(67, 33, 99, 0.7);
+}
+
+.filter_buttons:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.filter_buttons:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.active_tab {
+    background-color: rgba(67, 33, 99, 0.7);
+}

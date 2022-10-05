@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+#root {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: rosybrown;
+  background-image: url('../src/images/space.jpg');
+}
+
+.app {
+  background-color: rgba(36, 20, 66, 0.4);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 3rem;
+}

@@ -1,0 +1,12 @@
+h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: rgb(79, 64, 95);
+}
+
+.tasks_list {
+    background-color: rgba(201, 179, 201, 0.5);
+    padding: 1.5rem;
+    margin: 0 25% 3rem;
+    border-radius: 15px;
+}

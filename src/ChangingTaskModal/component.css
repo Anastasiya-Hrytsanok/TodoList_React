@@ -1,0 +1,50 @@
+.changing_task_modal_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(35, 26, 44, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.changing_task_modal {
+    background-color: rgba(179, 167, 179, 0.8);
+    width: 35rem;
+    height: 10rem;
+    margin: 15rem auto;
+    border-radius: 15px;
+    border: 2px solid rgba(35, 26, 44, 0.4);
+}
+
+.changing_task_modal input {
+    border: 3px solid rgba(62, 35, 88, 0.8);
+    background: rgba(36, 20, 66, 0.6);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 5px;
+    width: 90%;
+    margin: 2rem 0 2rem;
+}
+
+.changing_task_modal_button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.changing_task_modal_button_container button {
+    background-color: rgba(42, 23, 59, 0.8);
+    border: 3px solid rgba(62, 35, 88, 0.5);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 1rem;
+    width: 8rem;
+    margin: 0 1rem;
+}
+
+.changing_task_modal_button_container button:hover {
+    background-color: rgba(67, 33, 99, 0.7);
+}
